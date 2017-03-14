@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+ <head>
+	<BODY BGCOLOR="F0FFFF">
+        <title>Travels - Sign In</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/nexus.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/custom.css" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=PT+Sans" type="text/css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
+        </head>
+    <style>
+
+body{}
+   .layer1
+   {
+    float: left; 
+    padding: 0px;
+    margin-right: 0px; 
+    width: 30%; 
+   }
+
+   .layer2 
+    {
+    float: right; 
+    padding: 0px; 
+    margin-right: 0px; 
+    width: 30%; 
+   }
+    
+   .layer {
+      
+        float: left;
+		padding: 0px;
+    width: 70%;
+    text-align: left;
+   }
+
+  </style>
+
+
+<body>
+
+
+     <div class="layer1">
+ <a href="index.html"> <img src="travel.jpg" alt="Travel" width="110" height="70"></a>
+
+  </div>
+  
+<script language="JavaScript">
+var ok1=false
+function test(form)
+{
+if (form.text1.value == "")
+{
+ok1=false
+alert("Введіть ім’я!")
+}
+else
+if ((form.text3.value.indexOf('@', 0)<1)||(form.text3.value.indexOf('@',
+0)==form.text3.value.length-1))
+{
+ok1=false
+alert("Невірно введена адреса e-mail")
+}
+else ok1=true
+if(ok1)
+{
+//..............
+alert("Форма заповнена!")
+}
+}
+</script>
+
+<br><br>
+<div align="center">
+<form style="width:40%;">
+  <fieldset>
+    <legend>Вхід</legend>
+<div class="layer" align="left">
+<form>
+<br>
+Для того аби увійти, потрібно зареєструватися
+<br><br>
+Введіть ваше ім’я:<br>
+<input type="text" name="text1">
+<br>
+Введіть ваше прізвище:<br>
+<input type="text" name="text2">
+<br>
+Поштова скринька:<br>
+<input type="text" name="text3">
+<br>
+<br><br>Моя стать:<br> 
+    <input type="radio" name="gender" value="male" checked> Чоловік<br>
+    <input type="radio" name="gender" value="female"> Жінка<br><br>
+	 Куди плануєте подорожувати:<br>
+    <select name="interest">
+      <option value="volvo"></option>
+      <option value="saab">Європа</option>
+      <option value="fiat">Азія</option>
+      <option value="audi">Америка</option>
+    </select>
+	<br><br>
+<input type="button" name="button1" value="Готово"
+onClick="test(this.form)">
+</form>
+<br>
+</div>
+  </fieldset>
+
+
+</div>
+<br><br><br><br><br>
+ <!-- === BEGIN FOOTER === -->
+            <div id="content-bottom-border" class="container">
+            </div>
+            <div id="base">
+                <div class="container padding-vert-30 margin-top-60">
+                    <div class="row">
+                        <!-- Contact Details -->
+                        <div class="col-md-4 margin-bottom-20">
+                            <h3 class="margin-bottom-10">Contact Details</h3>
+                            <p>
+                                <span >Telephone:</span>(032)244-44-44
+                                <br>
+                                <span >Email:</span>
+                                <a href="mailto:info@anna.com">info@anna.com</a>
+                                <br>
+                                <span >Website:</span>
+                                <a href="http://www.cntraveler.com">www.cntraveler.com</a>
+                            </p>
+                            <p>Lviv
+                                
+                                <br>Ukraine</p>
+								</div>
+								<span  class="Links"> <span>
+                                 <div class="row">
+                                 <ul>
+		
+                                <a href="login.html"><img src="travels.jpg" alt="Travel" width="100" height="70"></a>
+                        </div>
+                        <!-- End Contact Details -->		  
+</body>
